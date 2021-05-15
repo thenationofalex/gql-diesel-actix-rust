@@ -1,0 +1,18 @@
+[package]
+name = "gql-diesel-actix-rust"
+version = "0.1.0"
+authors = ["Alex B <alexb@thenationofalex.com>"]
+edition = "2018"
+
+[dependencies]
+actix-web = "3"
+chrono = "0.4"
+diesel = { version = "1.4.6", features = ["postgres", "chrono", "r2d2"] }
+dotenv = "0.15.0"
+dotenv_codegen = "0.15.0"
+env_logger = "0.6"
+juniper = "0.15"
+sentry = "0.21.0"
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
